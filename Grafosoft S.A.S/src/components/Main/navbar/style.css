@@ -1,0 +1,95 @@
+/* ////////////////////////////////////// NAVBAR //////////////////////////////////////// */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    height: 70px;
+}
+
+.search{
+    margin-left: 32px;
+}
+
+.search i{
+    position: absolute;
+    transform: translateY(60%) translateX(8px);
+    color: gray;
+}
+
+.search input{
+    background-color: rgb(248, 248, 248);
+    font-size: 1rem;
+    width: 420px;
+    height: 38px;
+    border-style: none;
+    border-radius: 8px;
+    padding-left: 35px;
+}
+
+.search input:focus{
+    border: none;
+    outline: none;
+}
+
+/* /////////////////////////////////// USER - OPTIONS ////////////////////////////////// */
+.user-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    margin: 0 32px;
+}
+
+/* ---------------------------------- NOTIFICATIONS ------------------------------------- */
+.notifications{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.notification:nth-child(1){
+    background-color: rgba(255, 209, 164, 0.2);
+    color: #E9A763;
+}
+
+.notification:nth-child(2){
+    background-color: rgba(125, 168, 112, 0.2);
+    color: #7DA870;
+}
+/* ---------------------------------- USER ------------------------------------- */
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user p{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.user .photo{
+    margin-left: 12px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.user .photo img{
+    height: 100%;
+    object-fit: cover;
+    width: 100% ;
+}
