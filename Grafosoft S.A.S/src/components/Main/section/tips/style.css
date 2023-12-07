@@ -1,0 +1,44 @@
+.tips{
+    grid-column: 1;
+    grid-row: 3;
+    border-radius: 20px;
+    background-color: #343A3F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.contentTips{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    padding-left: 20px;
+    justify-content: center;
+    width: 65%;
+}
+
+.contentTips h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1430px){
+    .contentTips h4{
+        font-size: 1.7rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1430px){
+    .contentTips h4{
+        font-size: 1.2rem;
+    }
+
+    .contentTips p{
+        font-size: .8rem;
+    }
+}

@@ -93,3 +93,27 @@
     object-fit: cover;
     width: 100% ;
 }
+
+@media (max-width: 1000px){
+    .search input{
+        width: 275px;
+    }
+    
+    .user-options{
+        width: 260px;
+    }
+
+    .notifications{
+        width: 80px;
+    }
+    
+    .notification{
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+    
+    .user p{
+        font-size: 1rem;
+    }
+}
